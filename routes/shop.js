@@ -5,7 +5,7 @@ const adminData = require('./admin')
 const rootDir = require('../util/path')
 
 
-// this is to get the correct path in the sytsem bcoz / goes to system directory not root directory
+// this is to get the correct path in the system bcoz / goes to system directory not root directory
 const path = require("path")
 
 
