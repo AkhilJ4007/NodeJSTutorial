@@ -14,7 +14,7 @@ router.get("/addProduct",(req,res,next) => {
 
     // dirname is a global variable which has absolute path to the folder which it is in 
 // we could directly write the path but join is used so that path is made compatible for both linux and windows systems
-    res.sendFile(path.join(rootDir,'views','add-product.html'));
+    res.render('add-product')
 
 })
 
