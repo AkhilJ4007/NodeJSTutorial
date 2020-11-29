@@ -7,7 +7,14 @@ const shopRoutes = require('./routes/shop')
 
 
 
+
 const app = express()
+
+// helps to set values globally on the app 
+// uses to set pug globally 
+app.set('view engine','pug')
+// set the views value to the views folder
+app.set('views','views/pug')
 
 // this is to get the correct path in the sytsem bcoz / goes to system directory not root directory
 const path = require("path")
